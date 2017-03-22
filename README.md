@@ -1,1 +1,3 @@
 # JavaScriptSourceCode
+
+一些从JavaScript高级程序设计和JavaScript权威指南上搜集的源代码。
