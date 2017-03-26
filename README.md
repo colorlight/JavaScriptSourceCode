@@ -30,3 +30,10 @@
 * 为了利用sort函数，将类数组转化为数组
 * sort中传入的函数做一番包装。使其具有一定的健壮性。
 * 排序好的对象利用appendChild插入。
+
+### 6. embolden 给某个元素加黑
+* 传入的参数是那个要加黑的元素，或者是字符串
+* replaceChild函数必须是父节点调用的，所以先得到其父节点
+* 创建b元素
+* b元素替换n节点, ```n.parentNode.replaceChild(b,n);```
+* 利用b.appendChild(n)将n节点加入到b中去，完成加黑。
