@@ -23,3 +23,10 @@
 * 遍历节点的方法可以学习一下。 采用循环和递归的方法遍历所有的节点。
 * for循环架构声明一个child节点，初始值为参数节点的第一个子节点， 跳出条件是child！== null， 状态更新为 child指向下一个sibling node。
 * 递归的跳出条件为nodeType，如果nodeType判断为是一个Element，则进入递归。
+
+### 5. sorting the rows of a table
+* 传入的参数是一个table对象，取其中的tbody的方法，table.tBodies[0], 这样可以直接取出一个tbody对象。
+* 对tbody中的rows，根据第n个col的值排序，传入一个comparator的比较函数。
+* 为了利用sort函数，将类数组转化为数组
+* sort中传入的函数做一番包装。使其具有一定的健壮性。
+* 排序好的对象利用appendChild插入。
