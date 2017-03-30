@@ -37,3 +37,10 @@
 * 创建b元素
 * b元素替换n节点, ```n.parentNode.replaceChild(b,n);```
 * 利用b.appendChild(n)将n节点加入到b中去，完成加黑。
+
+### 7. parseHttp  解析http响应内容
+*  利用xhr实现ajax的流程
+*  http总是成对并且是先有请求的，响应的设计是作为事件对待的。
+*  对响应的处理是在事件处理函数中处理的
+*  响应contentType的3种类型，xml json 和纯文本。 
+*  获取纯文本request.reponseText
