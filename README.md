@@ -44,3 +44,7 @@
 *  对响应的处理是在事件处理函数中处理的
 *  响应contentType的3种类型，xml json 和纯文本。 
 *  获取纯文本request.reponseText
+
+### 8. sort_order 降序与升序
+* 两种数值升序降序的简便写法
+* 注释是升序的一种模板写法
