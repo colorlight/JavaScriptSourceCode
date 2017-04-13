@@ -16,3 +16,8 @@ var browser={
 	qqbrowser:/QQBrowser/i.test(ua),
 	theworld:/Theworld/i.test(ua)
 };
+
+if(browser.ie){
+
+}
+if(browser)
