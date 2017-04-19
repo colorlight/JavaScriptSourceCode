@@ -60,3 +60,7 @@
 * get和set的属性是没有冒号与函数分开的
 * set让属性可写，但是不可读
 * get让书写可读，但是不可写
+
+### 11. capitalize
+* 让单词的首字母大写，其他的小写  
+*  charAt和str[]的区别，返回值不同，charAt不会返回undefined
