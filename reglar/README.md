@@ -7,3 +7,7 @@
 
 ### 1. existOrNot 
 * 判定字符串中的存在性，是否存在某个字符串
+
+### 2. endWithBeginWith
+* ```existOrNot``` 的加强版，判断是否以某个字符串开始或者结尾 
+* ```indexOf```此时已经无用
