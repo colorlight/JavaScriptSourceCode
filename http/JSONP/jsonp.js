@@ -6,10 +6,10 @@ function addScriptTag(src) {
   document.body.appendChild(script);
 }
 
-window.onload = function () {
-  addScriptTag('http://www.runoob.com/try/ajax/jsonp.php?jsonp=callbackFunction');
-}
+addScriptTag('http://172.24.53.223:8080?callback=foo');
 
-function foo(data) {
-  console.log('Your public IP address is: ' + data);
+
+function foo(data,password) {
+  console.log('my penius:' + data.mypeniusinch);
+  console.log('topsecert:' + password.password);
 };

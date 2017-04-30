@@ -20,3 +20,8 @@
 * 4. 设置回调函数 回调函数中注意对```readySate```的判断，读取response头部```getResponseHeader('属性名');``` 以纯文本的形式读取主体```responseText```  以dom的形式读取主体 ```responseXML```
 * 5. send(给request绑定主体)
 
+### 3. form_encoded 
+ * 当你要进行一个get请求的时候，而且你还要附加参数，你需要用到这个
+ * 他可以对你的参数部分进行表单格式编码
+ * 你需要将这个编码结果和url拼接形成最终的url
+ 
