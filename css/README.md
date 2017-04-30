@@ -14,3 +14,11 @@
 * 有两种办法禁用stylesheet
 * document.styleSheetss属性
 * 通过dom方法
+* 但是这两种方法返回的对象分别是dom元素和cssStylesheet对象
+* 但是这两个对象中都有disabled属性
+
+### 3. 创建一个styleSheet
+* 通过创建dom的方法才可以创建styleSheet
+* 然后想让他生效的话，有两种方法
+* 通过dom，就是插入innerHTML为css规则的字符串
+* 通过styleSheet对象， 利用insertRule插入css规则，但是这不会改变dom结构，就是style标签中仍然是空的
