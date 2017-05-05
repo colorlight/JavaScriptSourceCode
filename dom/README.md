@@ -36,3 +36,11 @@
 * 而innerText程序遍历节点的方法是通过child.nextSibling 和 child !== null;
 * 用递归遍历儿子的儿子
 * 考察了3个值，所有节点数目， 最深值，以及最多儿子值，注意在求这三个值的时候，有一个规则就是要判断清楚 这三个值在什么时候更新，就把代码写在哪个位置
+
+
+### 6. tableDom 完全用js生成的大规模表格
+* createElement的使用
+* appendChild的使用
+* createTextNode的使用
+* 元素内部嵌套元素的方法
+
